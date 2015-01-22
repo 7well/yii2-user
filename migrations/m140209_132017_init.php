@@ -10,7 +10,7 @@
  */
 
 use yii\db\Schema;
-use dektrium\user\migrations\Migration;
+use julatools\user\migrations\Migration;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com
@@ -19,10 +19,13 @@ class m140209_132017_init extends Migration
 {
     public function up()
     {
-        $this->createTable('{{%user}}', [
+        $this->createTable('{{%sys_user}}', [
             'id'                   => Schema::TYPE_PK,
             'username'             => Schema::TYPE_STRING . '(25) NOT NULL',
             'email'                => Schema::TYPE_STRING . '(255) NOT NULL',
+        	'organization'		   => Schema::TYPE_STRING . '(255) NOT NULL',
+        	'clientdns'			   => Schema::TYPE_STRING . '(255) ',
+        	'clientpath'		   => Schema::TYPE_STRING . '(255) ',
             'password_hash'        => Schema::TYPE_STRING . '(60) NOT NULL',
             'auth_key'             => Schema::TYPE_STRING . '(32) NOT NULL',
             'confirmation_token'   => Schema::TYPE_STRING . '(32)',
@@ -39,12 +42,12 @@ class m140209_132017_init extends Migration
             'updated_at'           => Schema::TYPE_INTEGER . ' NOT NULL',
         ], $this->tableOptions);
 
-        $this->createIndex('user_unique_username', '{{%user}}', 'username', true);
-        $this->createIndex('user_unique_email', '{{%user}}', 'email', true);
-        $this->createIndex('user_confirmation', '{{%user}}', 'id, confirmation_token', true);
-        $this->createIndex('user_recovery', '{{%user}}', 'id, recovery_token', true);
+        $this->createIndex('sys_user_unique_username', '{{%sys_user}}', 'username', true);
+        $this->createIndex('sys_user_unique_email', '{{%sys_user}}', 'email', true);
+        $this->createIndex('sys_user_confirmation', '{{%sys_user}}', 'id, confirmation_token', true);
+        $this->createIndex('sys_user_recovery', '{{%sys_user}}', 'id, recovery_token', true);
 
-        $this->createTable('{{%profile}}', [
+        $this->createTable('{{%sys_profile}}', [
             'user_id'        => Schema::TYPE_INTEGER . ' PRIMARY KEY',
             'name'           => Schema::TYPE_STRING . '(255)',
             'public_email'   => Schema::TYPE_STRING . '(255)',
@@ -55,12 +58,12 @@ class m140209_132017_init extends Migration
             'bio'            => Schema::TYPE_TEXT
         ], $this->tableOptions);
 
-        $this->addForeignKey('fk_user_profile', '{{%profile}}', 'user_id', '{{%user}}', 'id', 'CASCADE', 'RESTRICT');
+        $this->addForeignKey('fk_sys_user_sys_profile', '{{%sys_profile}}', 'user_id', '{{%sys_user}}', 'id', 'CASCADE', 'RESTRICT');
     }
 
     public function down()
     {
-        $this->dropTable('{{%profile}}');
-        $this->dropTable('{{%user}}');
+        $this->dropTable('{{%sys_profile}}');
+        $this->dropTable('{{%sys_user}}');
     }
 }

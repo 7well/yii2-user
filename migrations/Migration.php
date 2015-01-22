@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\migrations;
+namespace julatools\user\migrations;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>

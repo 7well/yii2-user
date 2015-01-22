@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace julatools\user\controllers;
 
-use dektrium\user\Finder;
-use dektrium\user\models\User;
-use dektrium\user\models\UserSearch;
+use julatools\user\Finder;
+use julatools\user\models\User;
+use julatools\user\models\UserSearch;
 use yii\base\Model;
 use yii\web\Controller;
 use yii\filters\AccessControl;
@@ -25,7 +25,7 @@ use yii\widgets\ActiveForm;
 /**
  * AdminController allows you to administrate users.
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  * @author Dmitry Erofeev <dmeroff@gmail.com
  */
 class AdminController extends Controller

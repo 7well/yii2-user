@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace julatools\user\controllers;
 
-use dektrium\user\Finder;
-use dektrium\user\models\Account;
-use dektrium\user\models\SettingsForm;
-use dektrium\user\Module;
+use julatools\user\Finder;
+use julatools\user\models\Account;
+use julatools\user\models\SettingsForm;
+use julatools\user\Module;
 use yii\authclient\ClientInterface;
 use yii\base\Model;
 use yii\helpers\Url;
@@ -29,7 +29,7 @@ use yii\widgets\ActiveForm;
 /**
  * SettingsController manages updating user settings (e.g. profile, email and password).
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

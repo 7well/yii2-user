@@ -1,9 +1,9 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace julatools\user\tests;
 
 use Codeception\Specify;
-use dektrium\user\models\RecoveryForm;
+use julatools\user\models\RecoveryForm;
 use tests\codeception\fixtures\UserFixture;
 use tests\codeception\fixtures\TokenFixture;
 use yii\codeception\TestCase;

@@ -14,9 +14,9 @@ use yii\widgets\ActiveForm;
 
 /**
  * @var yii\web\View                 $this
- * @var dektrium\user\models\User    $user
- * @var dektrium\user\models\Profile $profile
- * @var dektrium\user\Module         $module
+ * @var julatools\user\models\User    $user
+ * @var julatools\user\models\Profile $profile
+ * @var julatools\user\Module         $module
  */
 
 $this->title = Yii::t('user', 'Update user account');

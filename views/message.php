@@ -12,7 +12,7 @@
 /**
  * @var $this   yii\web\View
  * @var $title  string
- * @var $module dektrium\user\Module
+ * @var $module julatools\user\Module
  */
 
 $this->title = $title;

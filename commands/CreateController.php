@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\commands;
+namespace julatools\user\commands;
 
-use dektrium\user\models\User;
+use julatools\user\models\User;
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
  * Creates new user account.
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

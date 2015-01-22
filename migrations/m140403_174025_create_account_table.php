@@ -10,7 +10,7 @@
  */
 
 use yii\db\Schema;
-use dektrium\user\migrations\Migration;
+use julatools\user\migrations\Migration;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com
@@ -19,7 +19,7 @@ class m140403_174025_create_account_table extends Migration
 {
     public function up()
     {
-        $this->createTable('{{%account}}', [
+        $this->createTable('{{%sys_account}}', [
             'id'         => Schema::TYPE_PK,
             'user_id'    => Schema::TYPE_INTEGER,
             'provider'   => Schema::TYPE_STRING . ' NOT NULL',
@@ -27,8 +27,8 @@ class m140403_174025_create_account_table extends Migration
             'properties' => Schema::TYPE_TEXT
         ], $this->tableOptions);
 
-        $this->createIndex('account_unique', '{{%account}}', ['provider', 'client_id'], true);
-        $this->addForeignKey('fk_user_account', '{{%account}}', 'user_id', '{{%user}}', 'id', 'CASCADE', 'RESTRICT');
+        $this->createIndex('sys_account_unique', '{{%sys_account}}', ['provider', 'client_id'], true);
+        $this->addForeignKey('fk_sys_user_sys_account', '{{%sys_account}}', 'user_id', '{{%sys_user}}', 'id', 'CASCADE', 'RESTRICT');
     }
 
     public function down()

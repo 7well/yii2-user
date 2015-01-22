@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace julatools\user\models;
 
-use dektrium\user\Finder;
+use julatools\user\Finder;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 

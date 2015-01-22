@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace julatools\user\controllers;
 
-use dektrium\user\Finder;
-use dektrium\user\models\Account;
-use dektrium\user\models\LoginForm;
+use julatools\user\Finder;
+use julatools\user\models\Account;
+use julatools\user\models\LoginForm;
 use yii\base\Model;
 use yii\helpers\Url;
 use yii\web\Controller;
@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
 /**
  * Controller that manages user authentication process.
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

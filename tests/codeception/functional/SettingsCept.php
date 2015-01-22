@@ -1,6 +1,6 @@
 <?php
-use dektrium\user\models\Token;
-use dektrium\user\models\User;
+use julatools\user\models\Token;
+use julatools\user\models\User;
 use tests\codeception\_pages\LoginPage;
 use tests\codeception\_pages\SettingsPage;
 use yii\helpers\Html;

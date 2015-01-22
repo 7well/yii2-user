@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace julatools\user\controllers;
 
-use dektrium\user\Finder;
+use julatools\user\Finder;
 use yii\web\Controller;
 use yii\filters\AccessControl;
 use yii\web\NotFoundHttpException;
@@ -19,7 +19,7 @@ use yii\web\NotFoundHttpException;
 /**
  * ProfileController shows users profiles.
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

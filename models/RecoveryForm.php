@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace julatools\user\models;
 
-use dektrium\user\Finder;
-use dektrium\user\Mailer;
+use julatools\user\Finder;
+use julatools\user\Mailer;
 use yii\base\Model;
 
 /**
  * Model for collecting data on password recovery.
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -33,7 +33,7 @@ class RecoveryForm extends Model
     /** @var User */
     protected $user;
 
-    /** @var \dektrium\user\Module */
+    /** @var \julatools\user\Module */
     protected $module;
 
     /** @var Mailer */

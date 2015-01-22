@@ -10,7 +10,7 @@
  */
 
 use yii\db\Schema;
-use dektrium\user\migrations\Migration;
+use julatools\user\migrations\Migration;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>
@@ -19,19 +19,19 @@ class m140504_130429_create_token_table extends Migration
 {
     public function up()
     {
-        $this->createTable('{{%token}}', [
+        $this->createTable('{{%sys_token}}', [
             'user_id'    => Schema::TYPE_INTEGER . ' NOT NULL',
             'code'       => Schema::TYPE_STRING . '(32) NOT NULL',
             'created_at' => Schema::TYPE_INTEGER . ' NOT NULL',
             'type'       => Schema::TYPE_SMALLINT . ' NOT NULL'
         ], $this->tableOptions);
 
-        $this->createIndex('token_unique', '{{%token}}', ['user_id', 'code', 'type'], true);
-        $this->addForeignKey('fk_user_token', '{{%token}}', 'user_id', '{{%user}}', 'id', 'CASCADE', 'RESTRICT');
+        $this->createIndex('sys_token_unique', '{{%sys_token}}', ['user_id', 'code', 'type'], true);
+        $this->addForeignKey('fk_sys_user_sys_token', '{{%sys_token}}', 'user_id', '{{%sys_user}}', 'id', 'CASCADE', 'RESTRICT');
     }
 
     public function down()
     {
-        $this->dropTable('{{%token}}');
+        $this->dropTable('{{%sys_token}}');
     }
 }

@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\commands;
+namespace julatools\user\commands;
 
-use dektrium\user\Finder;
+use julatools\user\Finder;
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
  * Updates user's password.
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

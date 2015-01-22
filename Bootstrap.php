@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user;
+namespace julatools\user;
 
 use yii\authclient\Collection;
 use yii\base\BootstrapInterface;
@@ -29,16 +29,16 @@ class Bootstrap implements BootstrapInterface
 {
     /** @var array Model's map */
     private $_modelMap = [
-        'User'             => 'dektrium\user\models\User',
-        'Account'          => 'dektrium\user\models\Account',
-        'Profile'          => 'dektrium\user\models\Profile',
-        'Token'            => 'dektrium\user\models\Token',
-        'RegistrationForm' => 'dektrium\user\models\RegistrationForm',
-        'ResendForm'       => 'dektrium\user\models\ResendForm',
-        'LoginForm'        => 'dektrium\user\models\LoginForm',
-        'SettingsForm'     => 'dektrium\user\models\SettingsForm',
-        'RecoveryForm'     => 'dektrium\user\models\RecoveryForm',
-        'UserSearch'       => 'dektrium\user\models\UserSearch',
+        'User'             => 'julatools\user\models\User',
+        'Account'          => 'julatools\user\models\Account',
+        'Profile'          => 'julatools\user\models\Profile',
+        'Token'            => 'julatools\user\models\Token',
+        'RegistrationForm' => 'julatools\user\models\RegistrationForm',
+        'ResendForm'       => 'julatools\user\models\ResendForm',
+        'LoginForm'        => 'julatools\user\models\LoginForm',
+        'SettingsForm'     => 'julatools\user\models\SettingsForm',
+        'RecoveryForm'     => 'julatools\user\models\RecoveryForm',
+        'UserSearch'       => 'julatools\user\models\UserSearch',
     ];
 
     /** @inheritdoc */
@@ -48,7 +48,7 @@ class Bootstrap implements BootstrapInterface
         if ($app->hasModule('user') && ($module = $app->getModule('user')) instanceof Module) {
             $this->_modelMap = array_merge($this->_modelMap, $module->modelMap);
             foreach ($this->_modelMap as $name => $definition) {
-                $class = "dektrium\\user\\models\\" . $name;
+                $class = "julatools\\user\\models\\" . $name;
                 \Yii::$container->set($class, $definition);
                 $modelName = is_array($definition) ? $definition['class'] : $definition;
                 $module->modelMap[$name] = $modelName;
@@ -66,7 +66,7 @@ class Bootstrap implements BootstrapInterface
             ]);
 
             if ($app instanceof ConsoleApplication) {
-                $module->controllerNamespace = 'dektrium\user\commands';
+                $module->controllerNamespace = 'julatools\user\commands';
             } else {
                 \Yii::$container->set('yii\web\User', [
                     'enableAutoLogin' => true,
@@ -104,7 +104,7 @@ class Bootstrap implements BootstrapInterface
                 'recoverySubject'       => \Yii::t('user', 'Complete password reset on {0}', \Yii::$app->name)
             ];
 
-            \Yii::$container->set('dektrium\user\Mailer', array_merge($defaults, $module->mailer));
+            \Yii::$container->set('julatools\user\Mailer', array_merge($defaults, $module->mailer));
         }
         
     }

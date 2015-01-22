@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace julatools\user\models;
 
-use dektrium\user\Finder;
-use dektrium\user\Mailer;
+use julatools\user\Finder;
+use julatools\user\Mailer;
 use yii\base\Model;
 
 /**
@@ -31,7 +31,7 @@ class ResendForm extends Model
     /** @var User */
     private $_user;
 
-    /** @var \dektrium\user\Module */
+    /** @var \julatools\user\Module */
     protected $module;
 
     /** @var Mailer */

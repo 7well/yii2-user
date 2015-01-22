@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace julatools\user\models;
 
-use dektrium\user\Finder;
-use dektrium\user\helpers\Password;
-use dektrium\user\Mailer;
-use dektrium\user\Module;
+use julatools\user\Finder;
+use julatools\user\helpers\Password;
+use julatools\user\Mailer;
+use julatools\user\Module;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -58,13 +58,13 @@ class User extends ActiveRecord implements IdentityInterface
     /** @var string Plain password. Used for model validation. */
     public $password;
 
-    /** @var \dektrium\user\Module */
+    /** @var \julatools\user\Module */
     protected $module;
 
-    /** @var \dektrium\user\Mailer */
+    /** @var \julatools\user\Mailer */
     protected $mailer;
 
-    /** @var \dektrium\user\Finder */
+    /** @var \julatools\user\Finder */
     protected $finder;
 
     /** @inheritdoc */

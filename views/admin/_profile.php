@@ -11,7 +11,7 @@
 
 /**
  * @var yii\widgets\ActiveForm       $form
- * @var dektrium\user\models\Profile $profile
+ * @var julatools\user\models\Profile $profile
  */
 
 ?>

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user;
+namespace julatools\user;
 
-use dektrium\user\models\Token;
-use dektrium\user\models\User;
+use julatools\user\models\Token;
+use julatools\user\models\User;
 use yii\base\Component;
 
 /**
@@ -23,7 +23,7 @@ use yii\base\Component;
 class Mailer extends Component
 {
     /** @var string */
-    public $viewPath = '@dektrium/user/views/mail';
+    public $viewPath = '@julatools/user/views/mail';
 
     /** @var string|array */
     public $sender = 'no-reply@example.com';

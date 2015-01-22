@@ -1,10 +1,10 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace julatools\user\tests;
 
 use Codeception\Specify;
 use
-    dektrium\user\models\LoginForm;
+    julatools\user\models\LoginForm;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 

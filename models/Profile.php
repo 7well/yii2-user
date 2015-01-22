@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace julatools\user\models;
 
 use yii\db\ActiveRecord;
 
@@ -29,7 +29,7 @@ use yii\db\ActiveRecord;
  */
 class Profile extends ActiveRecord
 {
-    /** @var \dektrium\user\Module */
+    /** @var \julatools\user\Module */
     protected $module;
 
     /** @inheritdoc */

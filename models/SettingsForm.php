@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace julatools\user\models;
 
-use dektrium\user\helpers\Password;
-use dektrium\user\Mailer;
-use dektrium\user\Module;
+use julatools\user\helpers\Password;
+use julatools\user\Mailer;
+use julatools\user\Module;
 use yii\base\Model;
 use yii\base\NotSupportedException;
 

@@ -18,11 +18,11 @@ class m140830_172703_change_account_table_name extends Migration
 {
     public function up()
     {
-        $this->renameTable('{{%account}}', '{{%social_account}}');
+        $this->renameTable('{{%sys_account}}', '{{%sys_social_account}}');
     }
 
     public function down()
     {
-        $this->renameTable('{{%social_account}}', '{{%account}}');
+        $this->renameTable('{{%sys_social_account}}', '{{%sys_account}}');
     }
 }

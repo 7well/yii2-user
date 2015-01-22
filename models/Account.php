@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace julatools\user\models;
 
 use yii\db\ActiveRecord;
 
@@ -22,13 +22,13 @@ use yii\db\ActiveRecord;
  * @property string  $decodedData Json-decoded properties
  * @property User    $user        User that this account is connected for.
  *
- * @property \dektrium\user\Module $module
+ * @property \julatools\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
 class Account extends ActiveRecord
 {
-    /** @var \dektrium\user\Module */
+    /** @var \julatools\user\Module */
     protected $module;
 
     /** @var */

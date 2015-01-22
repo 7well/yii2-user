@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
 /**
  * @var yii\web\View              $this
- * @var dektrium\user\models\User $user
+ * @var julatools\user\models\User $user
  */
 
 $this->title = Yii::t('user', 'Create a user account');

@@ -10,7 +10,7 @@
  */
 
 /**
- * @var $module dektrium\user\Module
+ * @var $module julatools\user\Module
  */
 
 ?>
