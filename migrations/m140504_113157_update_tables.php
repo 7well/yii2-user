@@ -20,8 +20,8 @@ class m140504_113157_update_tables extends Migration
     public function up()
     {
         // user table
-        $this->dropIndex('user_confirmation', '{{%sys_user}}');
-        $this->dropIndex('user_recovery', '{{%sys_user}}');
+        $this->dropIndex('sys_user_confirmation', '{{%sys_user}}');
+        $this->dropIndex('sys_user_recovery', '{{%sys_user}}');
         $this->dropColumn('{{%sys_user}}', 'confirmation_token');
         $this->dropColumn('{{%sys_user}}', 'confirmation_sent_at');
         $this->dropColumn('{{%sys_user}}', 'recovery_token');

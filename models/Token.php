@@ -109,7 +109,7 @@ class Token extends ActiveRecord
     /** @inheritdoc */
     public static function tableName()
     {
-        return '{{%token}}';
+        return '{{%sys_token}}';
     }
 
     /** @inheritdoc */
