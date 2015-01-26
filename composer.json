@@ -38,6 +38,7 @@
         }
     },
     "extra": {
+        "version": "0.10.0"
         "bootstrap": "julatools\\user\\Bootstrap",
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
