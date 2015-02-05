@@ -6,5 +6,5 @@ use yii\test\ActiveFixture;
 
 class TokenFixture extends ActiveFixture
 {
-    public $modelClass = 'julatools\user\models\Token';
+    public $modelClass = '7well\user\models\Token';
 }

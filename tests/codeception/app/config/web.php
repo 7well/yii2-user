@@ -4,17 +4,17 @@ return [
     'id'        => 'yii2-user-test',
     'basePath'  => dirname(__DIR__),
     'bootstrap' => [
-        'julatools\user\Bootstrap'
+        '7well\user\Bootstrap'
     ],
     'extensions' => require(VENDOR_DIR . '/yiisoft/extensions.php'),
     'aliases' => [
-        '@julatools/user' => realpath(__DIR__. '/../../../../'),
+        '@7well/user' => realpath(__DIR__. '/../../../../'),
         '@vendor'        => VENDOR_DIR,
         '@bower'         => VENDOR_DIR . '/bower',
     ],
     'modules' => [
         'user' => [
-            'class' => 'julatools\user\Module',
+            'class' => '7well\user\Module',
             'admins' => ['user'],
             'mailer' => [
                 'class' => 'app\components\MailerMock',

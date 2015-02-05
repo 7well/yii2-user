@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\commands;
+namespace 7well\user\commands;
 
-use julatools\user\models\User;
+use 7well\user\models\User;
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
  * Creates new user account.
  *
- * @property \julatools\user\Module $module
+ * @property \7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

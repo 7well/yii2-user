@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\widgets;
+namespace 7well\user\widgets;
 
 use yii\authclient\ClientInterface;
 use yii\authclient\widgets\AuthChoice;

@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\models;
+namespace 7well\user\models;
 
-use julatools\user\Finder;
-use julatools\user\helpers\Password;
-use julatools\user\Mailer;
-use julatools\user\Module;
+use 7well\user\Finder;
+use 7well\user\helpers\Password;
+use 7well\user\Mailer;
+use 7well\user\Module;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -58,13 +58,13 @@ class User extends ActiveRecord implements IdentityInterface
     /** @var string Plain password. Used for model validation. */
     public $password;
 
-    /** @var \julatools\user\Module */
+    /** @var \7well\user\Module */
     protected $module;
 
-    /** @var \julatools\user\Mailer */
+    /** @var \7well\user\Mailer */
     protected $mailer;
 
-    /** @var \julatools\user\Finder */
+    /** @var \7well\user\Finder */
     protected $finder;
 
     /** @inheritdoc */

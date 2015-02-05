@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\commands;
+namespace 7well\user\commands;
 
-use julatools\user\Finder;
+use 7well\user\Finder;
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
  * Updates user's password.
  *
- * @property \julatools\user\Module $module
+ * @property \7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

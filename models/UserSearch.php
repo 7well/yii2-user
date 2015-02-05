@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\models;
+namespace 7well\user\models;
 
-use julatools\user\Finder;
+use 7well\user\Finder;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-use \julatools\user\models\Token;
+use \7well\user\models\Token;
 
 $time = time();
 

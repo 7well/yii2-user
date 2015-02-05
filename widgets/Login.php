@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\widgets;
+namespace 7well\user\widgets;
 
-use julatools\user\models\LoginForm;
+use 7well\user\models\LoginForm;
 use yii\base\Widget;
 
 /**

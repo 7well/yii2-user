@@ -2,7 +2,7 @@
 
 namespace app\components;
 
-use julatools\user\Mailer;
+use 7well\user\Mailer;
 use tests\codeception\_support\MailHelper;
 
 class MailerMock extends Mailer

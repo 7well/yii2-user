@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\models;
+namespace 7well\user\models;
 
-use julatools\user\Finder;
-use julatools\user\Mailer;
+use 7well\user\Finder;
+use 7well\user\Mailer;
 use yii\base\Model;
 
 /**
  * Model for collecting data on password recovery.
  *
- * @property \julatools\user\Module $module
+ * @property \7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -33,7 +33,7 @@ class RecoveryForm extends Model
     /** @var User */
     protected $user;
 
-    /** @var \julatools\user\Module */
+    /** @var \7well\user\Module */
     protected $module;
 
     /** @var Mailer */

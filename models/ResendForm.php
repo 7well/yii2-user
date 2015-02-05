@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\models;
+namespace 7well\user\models;
 
-use julatools\user\Finder;
-use julatools\user\Mailer;
+use 7well\user\Finder;
+use 7well\user\Mailer;
 use yii\base\Model;
 
 /**
@@ -31,7 +31,7 @@ class ResendForm extends Model
     /** @var User */
     private $_user;
 
-    /** @var \julatools\user\Module */
+    /** @var \7well\user\Module */
     protected $module;
 
     /** @var Mailer */

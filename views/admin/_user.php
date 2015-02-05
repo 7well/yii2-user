@@ -11,7 +11,7 @@
 
 /**
  * @var yii\widgets\ActiveForm    $form
- * @var julatools\user\models\User $user
+ * @var 7well\user\models\User $user
  */
 
 ?>

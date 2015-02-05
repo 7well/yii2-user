@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\controllers;
+namespace 7well\user\controllers;
 
-use julatools\user\Finder;
-use julatools\user\models\Account;
-use julatools\user\models\SettingsForm;
-use julatools\user\Module;
+use 7well\user\Finder;
+use 7well\user\models\Account;
+use 7well\user\models\SettingsForm;
+use 7well\user\Module;
 use yii\authclient\ClientInterface;
 use yii\base\Model;
 use yii\helpers\Url;
@@ -29,7 +29,7 @@ use yii\widgets\ActiveForm;
 /**
  * SettingsController manages updating user settings (e.g. profile, email and password).
  *
- * @property \julatools\user\Module $module
+ * @property \7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

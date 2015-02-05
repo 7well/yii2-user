@@ -6,5 +6,5 @@ use yii\test\ActiveFixture;
 
 class ProfileFixture extends ActiveFixture
 {
-    public $modelClass = 'julatools\user\models\Profile';
+    public $modelClass = '7well\user\models\Profile';
 }

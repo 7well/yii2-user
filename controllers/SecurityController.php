@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\controllers;
+namespace 7well\user\controllers;
 
-use julatools\user\Finder;
-use julatools\user\models\Account;
-use julatools\user\models\LoginForm;
+use 7well\user\Finder;
+use 7well\user\models\Account;
+use 7well\user\models\LoginForm;
 use yii\base\Model;
 use yii\helpers\Url;
 use yii\web\Controller;
@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
 /**
  * Controller that manages user authentication process.
  *
- * @property \julatools\user\Module $module
+ * @property \7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

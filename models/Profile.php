@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\models;
+namespace 7well\user\models;
 
 use yii\db\ActiveRecord;
 
@@ -29,7 +29,7 @@ use yii\db\ActiveRecord;
  */
 class Profile extends ActiveRecord
 {
-    /** @var \julatools\user\Module */
+    /** @var \7well\user\Module */
     protected $module;
 
     /** @inheritdoc */

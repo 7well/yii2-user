@@ -10,7 +10,7 @@
  */
 
 /**
- * @var $module julatools\user\Module
+ * @var $module 7well\user\Module
  */
 
 ?>

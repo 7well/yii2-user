@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\helpers;
+namespace 7well\user\helpers;
 
 /**
  * Password helper.

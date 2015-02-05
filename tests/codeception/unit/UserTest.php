@@ -1,9 +1,9 @@
 <?php
 
-namespace julatools\user\tests;
+namespace 7well\user\tests;
 
 use Codeception\Specify;
-use julatools\user\models\User;
+use 7well\user\models\User;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 use Yii;

@@ -1,13 +1,13 @@
 {
-    "name": "julatools/yii2-user",
+    "name": "7well/yii2-user",
     "description": "Flexible user registration and authentication module for Yii2",
-    "keywords": ["yii2", "yii2-user", "user management", "julatools"],
+    "keywords": ["yii2", "yii2-user", "user management", "7well"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/julatools/yii2-user/issues?state=open",
-        "forum": "https://gitter.im/julatools/yii2-user",
-        "source": "https://github.com/julatools/yii2-user"
+        "issues": "https://github.com/7well/yii2-user/issues?state=open",
+        "forum": "https://gitter.im/7well/yii2-user",
+        "source": "https://github.com/7well/yii2-user"
     },
     "authors": [
         {
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "julatools\\user\\": ""
+            "7well\\user\\": ""
         }
     },
     "extra": {
         "version": "0.10.0",
-        "bootstrap": "julatools\\user\\Bootstrap",
+        "bootstrap": "7well\\user\\Bootstrap",
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"

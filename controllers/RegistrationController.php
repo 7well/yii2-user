@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\controllers;
+namespace 7well\user\controllers;
 
-use julatools\user\Finder;
-use julatools\user\models\RegistrationForm;
-use julatools\user\models\ResendForm;
-use julatools\user\models\User;
+use 7well\user\Finder;
+use 7well\user\models\RegistrationForm;
+use 7well\user\models\ResendForm;
+use 7well\user\models\User;
 use yii\base\Model;
 use yii\web\Controller;
 use yii\filters\AccessControl;
@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
  * RegistrationController is responsible for all registration process, which includes registration of a new account,
  * resending confirmation tokens, email confirmation and registration via social networks.
  *
- * @property \julatools\user\Module $module
+ * @property \7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

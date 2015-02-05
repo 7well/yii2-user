@@ -1,8 +1,8 @@
 <?php
 
-namespace julatools\user\tests;
+namespace 7well\user\tests;
 
-use julatools\user\models\ResendForm;
+use 7well\user\models\ResendForm;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 

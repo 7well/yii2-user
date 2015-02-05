@@ -1,6 +1,6 @@
 <?php
-use julatools\user\models\Token;
-use julatools\user\models\User;
+use 7well\user\models\Token;
+use 7well\user\models\User;
 use tests\codeception\_pages\LoginPage;
 use tests\codeception\_pages\SettingsPage;
 use yii\helpers\Html;

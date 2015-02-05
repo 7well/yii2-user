@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\models;
+namespace 7well\user\models;
 
-use julatools\user\helpers\Password;
-use julatools\user\Mailer;
-use julatools\user\Module;
+use 7well\user\helpers\Password;
+use 7well\user\Mailer;
+use 7well\user\Module;
 use yii\base\Model;
 use yii\base\NotSupportedException;
 

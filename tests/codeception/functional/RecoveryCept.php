@@ -4,8 +4,8 @@ use tests\codeception\_pages\RecoveryPage;
 use tests\codeception\_pages\LoginPage;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use julatools\user\models\User;
-use julatools\user\models\Token;
+use 7well\user\models\User;
+use 7well\user\models\Token;
 
 $I = new FunctionalTester($scenario);
 $I->wantTo('ensure that password recovery works');

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user\models;
+namespace 7well\user\models;
 
-use julatools\user\Module;
+use 7well\user\Module;
 use yii\base\Model;
 
 /**

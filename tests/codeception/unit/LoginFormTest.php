@@ -1,10 +1,10 @@
 <?php
 
-namespace julatools\user\tests;
+namespace 7well\user\tests;
 
 use Codeception\Specify;
 use
-    julatools\user\models\LoginForm;
+    7well\user\models\LoginForm;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 

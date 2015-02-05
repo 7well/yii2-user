@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use julatools\user\widgets\Connect;
+use 7well\user\widgets\Connect;
 use yii\helpers\Html;
 
 /**

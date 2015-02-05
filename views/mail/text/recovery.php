@@ -10,8 +10,8 @@
  */
 
 /**
- * @var julatools\user\models\User  $user
- * @var julatools\user\models\Token $token
+ * @var 7well\user\models\User  $user
+ * @var 7well\user\models\Token $token
  */
 ?>
 <?= Yii::t('user', 'Hello') ?>,

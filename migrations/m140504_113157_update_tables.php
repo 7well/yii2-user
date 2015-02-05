@@ -10,7 +10,7 @@
  */
 
 use yii\db\Schema;
-use julatools\user\migrations\Migration;
+use 7well\user\migrations\Migration;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>

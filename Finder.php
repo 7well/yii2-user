@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace julatools\user;
+namespace 7well\user;
 
 use yii\base\Object;
 use yii\db\ActiveQuery;
