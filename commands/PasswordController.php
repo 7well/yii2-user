@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\commands;
+namespace chd7well\user\commands;
 
-use chdchd7well\user\Finder;
+use chd7well\user\Finder;
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
  * Updates user's password.
  *
- * @property \chdchd7well\user\Module $module
+ * @property \chd7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

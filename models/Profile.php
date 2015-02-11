@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\models;
+namespace chd7well\user\models;
 
 use yii\db\ActiveRecord;
 
@@ -29,7 +29,7 @@ use yii\db\ActiveRecord;
  */
 class Profile extends ActiveRecord
 {
-    /** @var \chdchd7well\user\Module */
+    /** @var \chd7well\user\Module */
     protected $module;
 
     /** @inheritdoc */

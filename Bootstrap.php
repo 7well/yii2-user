@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user;
+namespace chd7well\user;
 
 use yii\authclient\Collection;
 use yii\base\BootstrapInterface;
@@ -29,16 +29,16 @@ class Bootstrap implements BootstrapInterface
 {
     /** @var array Model's map */
     private $_modelMap = [
-        'User'             => 'chdchd7well\user\models\User',
-        'Account'          => 'chdchd7well\user\models\Account',
-        'Profile'          => 'chdchd7well\user\models\Profile',
-        'Token'            => 'chdchd7well\user\models\Token',
-        'RegistrationForm' => 'chdchd7well\user\models\RegistrationForm',
-        'ResendForm'       => 'chdchd7well\user\models\ResendForm',
-        'LoginForm'        => 'chdchd7well\user\models\LoginForm',
-        'SettingsForm'     => 'chdchd7well\user\models\SettingsForm',
-        'RecoveryForm'     => 'chdchd7well\user\models\RecoveryForm',
-        'UserSearch'       => 'chdchd7well\user\models\UserSearch',
+        'User'             => 'chd7well\user\models\User',
+        'Account'          => 'chd7well\user\models\Account',
+        'Profile'          => 'chd7well\user\models\Profile',
+        'Token'            => 'chd7well\user\models\Token',
+        'RegistrationForm' => 'chd7well\user\models\RegistrationForm',
+        'ResendForm'       => 'chd7well\user\models\ResendForm',
+        'LoginForm'        => 'chd7well\user\models\LoginForm',
+        'SettingsForm'     => 'chd7well\user\models\SettingsForm',
+        'RecoveryForm'     => 'chd7well\user\models\RecoveryForm',
+        'UserSearch'       => 'chd7well\user\models\UserSearch',
     ];
 
     /** @inheritdoc */
@@ -48,7 +48,7 @@ class Bootstrap implements BootstrapInterface
         if ($app->hasModule('user') && ($module = $app->getModule('user')) instanceof Module) {
             $this->_modelMap = array_merge($this->_modelMap, $module->modelMap);
             foreach ($this->_modelMap as $name => $definition) {
-                $class = "chdchd7well\\user\\models\\" . $name;
+                $class = "chd7well\\user\\models\\" . $name;
                 \Yii::$container->set($class, $definition);
                 $modelName = is_array($definition) ? $definition['class'] : $definition;
                 $module->modelMap[$name] = $modelName;
@@ -66,7 +66,7 @@ class Bootstrap implements BootstrapInterface
             ]);
 
             if ($app instanceof ConsoleApplication) {
-                $module->controllerNamespace = 'chdchd7well\user\commands';
+                $module->controllerNamespace = 'chd7well\user\commands';
             } else {
                 \Yii::$container->set('yii\web\User', [
                     'enableAutoLogin' => true,
@@ -104,7 +104,7 @@ class Bootstrap implements BootstrapInterface
                 'recoverySubject'       => \Yii::t('user', 'Complete password reset on {0}', \Yii::$app->name)
             ];
 
-            \Yii::$container->set('chdchd7well\user\Mailer', array_merge($defaults, $module->mailer));
+            \Yii::$container->set('chd7well\user\Mailer', array_merge($defaults, $module->mailer));
         }
         
     }

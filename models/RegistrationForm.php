@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\models;
+namespace chd7well\user\models;
 
-use chdchd7well\user\Module;
+use chd7well\user\Module;
 use yii\base\Model;
 
 /**

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\controllers;
+namespace chd7well\user\controllers;
 
-use chdchd7well\user\Finder;
-use chdchd7well\user\models\RecoveryForm;
-use chdchd7well\user\models\Token;
+use chd7well\user\Finder;
+use chd7well\user\models\RecoveryForm;
+use chd7well\user\models\Token;
 use yii\base\Model;
 use yii\web\Controller;
 use yii\filters\AccessControl;
@@ -24,7 +24,7 @@ use yii\widgets\ActiveForm;
 /**
  * RecoveryController manages password recovery process.
  *
- * @property \chdchd7well\user\Module $module
+ * @property \chd7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

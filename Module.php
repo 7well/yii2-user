@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user;
+namespace chd7well\user;
 
 use yii\base\Module as BaseModule;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace chdchd7well\user\tests;
+namespace chd7well\user\tests;
 
 use Codeception\Specify;
-use chdchd7well\user\models\User;
+use chd7well\user\models\User;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 use Yii;

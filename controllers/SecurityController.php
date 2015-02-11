@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\controllers;
+namespace chd7well\user\controllers;
 
-use chdchd7well\user\Finder;
-use chdchd7well\user\models\Account;
-use chdchd7well\user\models\LoginForm;
+use chd7well\user\Finder;
+use chd7well\user\models\Account;
+use chd7well\user\models\LoginForm;
 use yii\base\Model;
 use yii\helpers\Url;
 use yii\web\Controller;
@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
 /**
  * Controller that manages user authentication process.
  *
- * @property \chdchd7well\user\Module $module
+ * @property \chd7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

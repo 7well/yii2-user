@@ -10,7 +10,7 @@
  */
 
 use yii\db\Schema;
-use chdchd7well\user\migrations\Migration;
+use chd7well\user\migrations\Migration;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com

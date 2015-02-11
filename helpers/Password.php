@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\helpers;
+namespace chd7well\user\helpers;
 
 /**
  * Password helper.

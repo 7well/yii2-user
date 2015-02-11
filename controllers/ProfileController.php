@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\controllers;
+namespace chd7well\user\controllers;
 
-use chdchd7well\user\Finder;
+use chd7well\user\Finder;
 use yii\web\Controller;
 use yii\filters\AccessControl;
 use yii\web\NotFoundHttpException;
@@ -19,7 +19,7 @@ use yii\web\NotFoundHttpException;
 /**
  * ProfileController shows users profiles.
  *
- * @property \chdchd7well\user\Module $module
+ * @property \chd7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

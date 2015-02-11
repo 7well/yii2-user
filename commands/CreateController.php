@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace chdchd7well\user\commands;
+namespace chd7well\user\commands;
 
-use chdchd7well\user\models\User;
+use chd7well\user\models\User;
 use yii\console\Controller;
 use yii\helpers\Console;
 
 /**
  * Creates new user account.
  *
- * @property \chdchd7well\user\Module $module
+ * @property \chd7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

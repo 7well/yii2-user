@@ -11,7 +11,7 @@
 
 use yii\widgets\Menu;
 
-/** @var chdchd7well\user\models\User $user */
+/** @var chd7well\user\models\User $user */
 $user = Yii::$app->user->identity;
 $networksVisible = count(Yii::$app->authClientCollection->clients) > 0;
 
