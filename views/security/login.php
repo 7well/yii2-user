@@ -11,12 +11,12 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use chd7well\user\widgets\Connect;
+use chdchd7well\user\widgets\Connect;
 
 /**
  * @var yii\web\View                   $this
- * @var chd7well\user\models\LoginForm $model
- * @var chd7well\user\Module           $module
+ * @var chdchd7well\user\models\LoginForm $model
+ * @var chdchd7well\user\Module           $module
  */
 
 $this->title = Yii::t('user', 'Sign in');

@@ -2,7 +2,7 @@
 
 namespace app\components;
 
-use chd7well\user\Mailer;
+use chdchd7well\user\Mailer;
 use tests\codeception\_support\MailHelper;
 
 class MailerMock extends Mailer

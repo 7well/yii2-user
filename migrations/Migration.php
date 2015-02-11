@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace chd7well\user\migrations;
+namespace chdchd7well\user\migrations;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>

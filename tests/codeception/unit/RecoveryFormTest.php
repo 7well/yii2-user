@@ -1,9 +1,9 @@
 <?php
 
-namespace chd7well\user\tests;
+namespace chdchd7well\user\tests;
 
 use Codeception\Specify;
-use chd7well\user\models\RecoveryForm;
+use chdchd7well\user\models\RecoveryForm;
 use tests\codeception\fixtures\UserFixture;
 use tests\codeception\fixtures\TokenFixture;
 use yii\codeception\TestCase;

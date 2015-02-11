@@ -6,5 +6,5 @@ use yii\test\ActiveFixture;
 
 class TokenFixture extends ActiveFixture
 {
-    public $modelClass = 'chd7well\user\models\Token';
+    public $modelClass = 'chdchd7well\user\models\Token';
 }

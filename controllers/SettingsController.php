@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace chd7well\user\controllers;
+namespace chdchd7well\user\controllers;
 
-use chd7well\user\Finder;
-use chd7well\user\models\Account;
-use chd7well\user\models\SettingsForm;
-use chd7well\user\Module;
+use chdchd7well\user\Finder;
+use chdchd7well\user\models\Account;
+use chdchd7well\user\models\SettingsForm;
+use chdchd7well\user\Module;
 use yii\authclient\ClientInterface;
 use yii\base\Model;
 use yii\helpers\Url;
@@ -29,7 +29,7 @@ use yii\widgets\ActiveForm;
 /**
  * SettingsController manages updating user settings (e.g. profile, email and password).
  *
- * @property \chd7well\user\Module $module
+ * @property \chdchd7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

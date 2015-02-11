@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace chd7well\user;
+namespace chdchd7well\user;
 
-use chd7well\user\models\Token;
-use chd7well\user\models\User;
+use chdchd7well\user\models\Token;
+use chdchd7well\user\models\User;
 use yii\base\Component;
 
 /**
@@ -23,7 +23,7 @@ use yii\base\Component;
 class Mailer extends Component
 {
     /** @var string */
-    public $viewPath = '@chd7well/user/views/mail';
+    public $viewPath = '@chdchd7well/user/views/mail';
 
     /** @var string|array */
     public $sender = 'no-reply@example.com';

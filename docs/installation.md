@@ -7,7 +7,7 @@ easy three-step process.
 Step 1: Download Yii2-user using composer
 -----------------------------------------
 
-Add `"7well/yii2-user": "*"` to the require section of your **composer.json** file. And run `composer update`
+Add `"chd7well/yii2-user": "*"` to the require section of your **composer.json** file. And run `composer update`
 to download and install Yii2-user.
 
 Step 2: Configure your application
@@ -20,7 +20,7 @@ Add following lines to your main configuration file:
 ```php
 'modules' => [
     'user' => [
-        'class' => '7well\user\Module',
+        'class' => 'chd7well\user\Module',
     ],
 ],
 ```
@@ -34,13 +34,13 @@ After you downloaded and configured Yii2-user, the last thing you need to do is 
 the migrations:
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/7well/yii2-user/migrations
+$ php yii migrate/up --migrationPath=@vendor/chd7well/yii2-user/migrations
 ```
 
 FAQ
 ---
 
-**Installation failed. There are no files in `vendor/7well/yii2-user`**
+**Installation failed. There are no files in `vendor/chd7well/yii2-user`**
 
 *Try removing Yii2-user version constraint from composer.json, then run `composer update`. After composer finish
  removing of Yii2-user, re-add version constraint and `composer update` again.*

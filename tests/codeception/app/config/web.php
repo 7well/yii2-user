@@ -4,17 +4,17 @@ return [
     'id'        => 'yii2-user-test',
     'basePath'  => dirname(__DIR__),
     'bootstrap' => [
-        'chd7well\user\Bootstrap'
+        'chdchd7well\user\Bootstrap'
     ],
     'extensions' => require(VENDOR_DIR . '/yiisoft/extensions.php'),
     'aliases' => [
-        '@chd7well/user' => realpath(__DIR__. '/../../../../'),
+        '@chdchd7well/user' => realpath(__DIR__. '/../../../../'),
         '@vendor'        => VENDOR_DIR,
         '@bower'         => VENDOR_DIR . '/bower',
     ],
     'modules' => [
         'user' => [
-            'class' => 'chd7well\user\Module',
+            'class' => 'chdchd7well\user\Module',
             'admins' => ['user'],
             'mailer' => [
                 'class' => 'app\components\MailerMock',

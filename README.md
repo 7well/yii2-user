@@ -1,4 +1,4 @@
-# Yii2-user [![Latest Stable Version](https://poser.pugx.org/chd7well/yii2-user/v/stable.png)](https://packagist.org/packages/chd7well/yii2-user) [![Total Downloads](https://poser.pugx.org/chd7well/yii2-user/downloads.png)](https://packagist.org/packages/chd7well/yii2-user) [![License](https://poser.pugx.org/chd7well/yii2-configmanager/license.svg)](https://packagist.org/packages/chd7well/yii2-configmanager)
+# Yii2-user [![Latest Stable Version](https://poser.pugx.org/chdchd7well/yii2-user/v/stable.png)](https://packagist.org/packages/chdchd7well/yii2-user) [![Total Downloads](https://poser.pugx.org/chdchd7well/yii2-user/downloads.png)](https://packagist.org/packages/chdchd7well/yii2-user) [![License](https://poser.pugx.org/chdchd7well/yii2-configmanager/license.svg)](https://packagist.org/packages/chdchd7well/yii2-configmanager)
 
 Most of web applications provide a way for users to register, log in or reset their forgotten passwords. Rather than
 re-implementing this on each application, you can use Yii2-user which is a flexible user management module for Yii2 that

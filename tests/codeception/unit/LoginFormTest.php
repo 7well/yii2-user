@@ -1,10 +1,10 @@
 <?php
 
-namespace chd7well\user\tests;
+namespace chdchd7well\user\tests;
 
 use Codeception\Specify;
 use
-    chd7well\user\models\LoginForm;
+    chdchd7well\user\models\LoginForm;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 

@@ -1,7 +1,7 @@
 <?php
 
-use chd7well\user\models\Token;
-use chd7well\user\models\User;
+use chdchd7well\user\models\Token;
+use chdchd7well\user\models\User;
 use tests\codeception\_pages\RegistrationPage;
 use yii\helpers\Html;
 

@@ -1,6 +1,6 @@
 <?php
 
-use \chd7well\user\models\Token;
+use \chdchd7well\user\models\Token;
 
 $time = time();
 

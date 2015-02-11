@@ -1,8 +1,8 @@
 <?php
 
-namespace chd7well\user\tests;
+namespace chdchd7well\user\tests;
 
-use chd7well\user\models\ResendForm;
+use chdchd7well\user\models\ResendForm;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 

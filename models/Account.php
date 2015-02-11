@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace chd7well\user\models;
+namespace chdchd7well\user\models;
 
 use yii\db\ActiveRecord;
 
@@ -22,13 +22,13 @@ use yii\db\ActiveRecord;
  * @property string  $decodedData Json-decoded properties
  * @property User    $user        User that this account is connected for.
  *
- * @property \chd7well\user\Module $module
+ * @property \chdchd7well\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
 class Account extends ActiveRecord
 {
-    /** @var \chd7well\user\Module */
+    /** @var \chdchd7well\user\Module */
     protected $module;
 
     /** @var */

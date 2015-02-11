@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace chd7well\user\models;
+namespace chdchd7well\user\models;
 
-use chd7well\user\Finder;
-use chd7well\user\helpers\Password;
-use chd7well\user\Mailer;
-use chd7well\user\Module;
+use chdchd7well\user\Finder;
+use chdchd7well\user\helpers\Password;
+use chdchd7well\user\Mailer;
+use chdchd7well\user\Module;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -58,13 +58,13 @@ class User extends ActiveRecord implements IdentityInterface
     /** @var string Plain password. Used for model validation. */
     public $password;
 
-    /** @var \chd7well\user\Module */
+    /** @var \chdchd7well\user\Module */
     protected $module;
 
-    /** @var \chd7well\user\Mailer */
+    /** @var \chdchd7well\user\Mailer */
     protected $mailer;
 
-    /** @var \chd7well\user\Finder */
+    /** @var \chdchd7well\user\Finder */
     protected $finder;
 
     /** @inheritdoc */
