@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace 7well\user\widgets;
+namespace chd7well\user\widgets;
 
 use yii\authclient\ClientInterface;
 use yii\authclient\widgets\AuthChoice;

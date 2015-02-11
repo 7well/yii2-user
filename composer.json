@@ -1,13 +1,13 @@
 {
-    "name": "7well/yii2-user",
+    "name": "chd7well/yii2-user",
     "description": "Flexible user registration and authentication module for Yii2",
-    "keywords": ["yii2", "yii2-user", "user management", "7well"],
+    "keywords": ["yii2", "yii2-user", "user management", "chd7well"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/7well/yii2-user/issues?state=open",
-        "forum": "https://gitter.im/7well/yii2-user",
-        "source": "https://github.com/7well/yii2-user"
+        "issues": "https://github.com/chd7well/yii2-user/issues?state=open",
+        "forum": "https://gitter.im/chd7well/yii2-user",
+        "source": "https://github.com/chd7well/yii2-user"
     },
     "authors": [
         {
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "7well\\user\\": ""
+            "chd7well\\user\\": ""
         }
     },
     "extra": {
         "version": "0.10.0",
-        "bootstrap": "7well\\user\\Bootstrap",
+        "bootstrap": "chd7well\\user\\Bootstrap",
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"

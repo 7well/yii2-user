@@ -10,7 +10,7 @@
  */
 
 /**
- * @var $module 7well\user\Module
+ * @var $module chd7well\user\Module
  */
 
 ?>

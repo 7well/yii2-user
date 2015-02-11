@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace 7well\user\models;
+namespace chd7well\user\models;
 
-use 7well\user\Finder;
-use 7well\user\Mailer;
+use chd7well\user\Finder;
+use chd7well\user\Mailer;
 use yii\base\Model;
 
 /**
@@ -31,7 +31,7 @@ class ResendForm extends Model
     /** @var User */
     private $_user;
 
-    /** @var \7well\user\Module */
+    /** @var \chd7well\user\Module */
     protected $module;
 
     /** @var Mailer */

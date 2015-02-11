@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace 7well\user\models;
+namespace chd7well\user\models;
 
-use 7well\user\Finder;
+use chd7well\user\Finder;
 use yii\base\Model;
-use 7well\user\helpers\Password;
+use chd7well\user\helpers\Password;
 
 /**
  * LoginForm get user's login and password, validates them and logs the user in. If user has been blocked, it adds
@@ -32,10 +32,10 @@ class LoginForm extends Model
     /** @var string Whether to remember the user */
     public $rememberMe = false;
 
-    /** @var \7well\user\models\User */
+    /** @var \chd7well\user\models\User */
     protected $user;
 
-    /** @var \7well\user\Module */
+    /** @var \chd7well\user\Module */
     protected $module;
 
     /** @var Finder */

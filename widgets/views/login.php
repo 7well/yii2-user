@@ -15,7 +15,7 @@ use yii\helpers\Html;
 /**
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var 7well\user\models\LoginForm $model
+ * @var chd7well\user\models\LoginForm $model
  * @var string $action
  */
 ?>

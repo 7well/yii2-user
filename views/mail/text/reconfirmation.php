@@ -10,7 +10,7 @@
  */
 
 /**
- * @var 7well\user\models\Token $token
+ * @var chd7well\user\models\Token $token
  */
 ?>
 <?= Yii::t('user', 'Hello') ?>,

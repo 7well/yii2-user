@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace 7well\user\models;
+namespace chd7well\user\models;
 
 use yii\db\ActiveRecord;
 use yii\helpers\Url;
@@ -34,7 +34,7 @@ class Token extends ActiveRecord
     const TYPE_CONFIRM_NEW_EMAIL = 2;
     const TYPE_CONFIRM_OLD_EMAIL = 3;
 
-    /** @var \7well\user\Module */
+    /** @var \chd7well\user\Module */
     protected $module;
 
     /** @inheritdoc */

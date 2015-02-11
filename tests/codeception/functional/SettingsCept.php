@@ -1,6 +1,6 @@
 <?php
-use 7well\user\models\Token;
-use 7well\user\models\User;
+use chd7well\user\models\Token;
+use chd7well\user\models\User;
 use tests\codeception\_pages\LoginPage;
 use tests\codeception\_pages\SettingsPage;
 use yii\helpers\Html;

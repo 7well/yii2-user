@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace 7well\user\widgets;
+namespace chd7well\user\widgets;
 
-use 7well\user\models\LoginForm;
+use chd7well\user\models\LoginForm;
 use yii\base\Widget;
 
 /**

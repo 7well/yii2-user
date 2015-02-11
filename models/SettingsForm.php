@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace 7well\user\models;
+namespace chd7well\user\models;
 
-use 7well\user\helpers\Password;
-use 7well\user\Mailer;
-use 7well\user\Module;
+use chd7well\user\helpers\Password;
+use chd7well\user\Mailer;
+use chd7well\user\Module;
 use yii\base\Model;
 use yii\base\NotSupportedException;
 

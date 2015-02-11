@@ -1,12 +1,12 @@
 <?php
 
-namespace 7well\user\tests;
+namespace chd7well\user\tests;
 
 use Codeception\Specify;
-use 7well\user\helpers\Password;
-use 7well\user\models\RegistrationForm;
-use 7well\user\models\Token;
-use 7well\user\models\User;
+use chd7well\user\helpers\Password;
+use chd7well\user\models\RegistrationForm;
+use chd7well\user\models\Token;
+use chd7well\user\models\User;
 use tests\codeception\fixtures\UserFixture;
 use yii\codeception\TestCase;
 
